@@ -147,13 +147,16 @@ production-rag-engineering/
 
 ## Engineering Deep-Dive Series
 
-Six engineering retrospectives, one per core module:
+Seven engineering retrospectives, one per core module:
 
-| Part | Title | Source |
+| # | Title | Link |
 |:---|:---|:---|
-| Part 1 | How do unstructured documents become a searchable knowledge base? Five key engineering decisions in the ingestion pipeline |
-| Part 2 | Why does one system need three chunking strategies — and why shouldn't one document type be chunked at all? |
-| Part 3 | Vector retrieval for domain-specific terminology: from model selection to dual-validation in production |
-| Part 4 | High semantic similarity score ≠ correct business conclusion: a three-layer judgment engine from retrieval to quantifiable decisions |
-| Part 5 | Installing a black box recorder for your RAG system: 4-layer metadata + 3-level verification for 5-minute root cause analysis |
-| Part 6 | RAG recall quality from 60% to 93% — not tuned by intuition |
+| Intro | I Shipped a Strict-Source RAG System to Production in 8 Weeks: A Full-Stack Engineering Retrospective | [→ Read](https://dev.to/jamesli/i-shipped-a-strict-source-rag-system-to-production-in-8-weeks-a-full-stack-engineering-1fkc) |
+| Part 1 | How Do Unstructured Documents Become a Searchable Knowledge Base? Five Key Engineering Decisions in the Ingestion Pipeline | [→ Read](https://dev.to/jamesli/part-1-how-do-unstructured-documents-become-a-searchable-knowledge-base-five-key-engineering-4j5n) |
+| Part 2 | Why Does One System Need Three Chunking Strategies? And One Document Type Shouldn't Be Chunked At All | [→ Read](https://dev.to/jamesli/part-2-why-does-one-system-need-three-chunking-strategies-and-one-document-type-shouldnt-be-2e5n) |
+| Part 3 | Vector Retrieval in Domain-Specific Terminology Scenarios: From Model Selection to Dual Validation | [→ Read](https://dev.to/jamesli/part-3-vector-retrieval-in-domain-specific-terminology-scenarios-from-model-selection-to-dual-3485) |
+| Part 4 | High Semantic Similarity ≠ Correct Business Conclusion: A Three-Layer Judgment Engine from Retrieval to Quantifiable Decisions | [→ Read](https://dev.to/jamesli/part-4-high-semantic-similarity-correct-business-conclusion-a-three-layer-judgment-engine-from-l2o) |
+| Part 5 | Installing a Black Box Recorder in Your RAG System: 4-Layer Metadata + 3-Level Verification, Root Cause in 5 Minutes | [→ Read](https://dev.to/jamesli/part-5-installing-a-black-box-recorder-in-your-rag-system-4-layer-metadata-3-level-2nb) |
+| Part 6 | RAG Recall Quality from 60% to 93%: Building a Continuous Evaluation Loop (Not Gut Feeling) | [→ Read](https://dev.to/jamesli/part-6-rag-recall-quality-from-60-to-93-building-a-continuous-evaluation-loop-not-gut-feeling-382k) |
+
+**Full series index →** https://dev.to/jamesli/series/41017
