@@ -1,5 +1,3 @@
-README.md
-
 # Production RAG Engineering
 
 > Engineering methodology for production-grade RAG systems: six core modules, two industry-specific implementations — from document ingestion to continuous evaluation.
@@ -153,9 +151,9 @@ Six engineering retrospectives, one per core module:
 
 | Part | Title | Source |
 |:---|:---|:---|
-| Part 1 | How do unstructured documents become a searchable knowledge base? Five key engineering decisions in the ingestion pipeline | `loading_service.py` / `parsing_service.py` |
-| Part 2 | Why does one system need three chunking strategies — and why shouldn't one document type be chunked at all? | `chunking_service.py` |
-| Part 3 | Vector retrieval for domain-specific terminology: from model selection to dual-validation in production | `embedding_service.py` / `search_service.py` |
-| Part 4 | High semantic similarity score ≠ correct business conclusion: a three-layer judgment engine from retrieval to quantifiable decisions | `generation_service.py` |
-| Part 5 | Installing a black box recorder for your RAG system: 4-layer metadata + 3-level verification for 5-minute root cause analysis | `embedding_service.py` / `evaluation_service.py` |
-| Part 6 | RAG recall quality from 60% to 93% — not tuned by intuition | `evaluation_service.py` |
+| Part 1 | How do unstructured documents become a searchable knowledge base? Five key engineering decisions in the ingestion pipeline |
+| Part 2 | Why does one system need three chunking strategies — and why shouldn't one document type be chunked at all? |
+| Part 3 | Vector retrieval for domain-specific terminology: from model selection to dual-validation in production |
+| Part 4 | High semantic similarity score ≠ correct business conclusion: a three-layer judgment engine from retrieval to quantifiable decisions |
+| Part 5 | Installing a black box recorder for your RAG system: 4-layer metadata + 3-level verification for 5-minute root cause analysis |
+| Part 6 | RAG recall quality from 60% to 93% — not tuned by intuition |
